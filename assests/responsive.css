@@ -96,20 +96,15 @@
         }
     }
 
-    #content .section-2 {
-        flex-direction: row;
-    }
+  #content .section-2 {
+    flex-direction: row-reverse;
+  }
 
     #content .section-4 {
       h2 {
         font-size: 2.5rem;
       }
 
-        img {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-      }
         p {
             color: #23272A;
             text-align: center;
@@ -119,11 +114,9 @@
         }
 
         img {
-            width: 100%;
-            margin: 0 auto;
+          object-fit: cover;
             max-width: 900px;
-        }
-
-
+            margin: 0 auto;
+      }
    }
   
