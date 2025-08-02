@@ -90,12 +90,31 @@
 
 
         h2 {
+            margin-top: 2rem;
             
         }
 
         img {
+            margin-top: 1.5rem;
             width: 100%;
             height: auto;
         }
+    }
+}
+
+
+
+.section-2, .section-4 {
+    background:#f0e1e1;
+}
+
+
+footer {
+    background: #23272A;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    img {
+        width: 10.125rem;
+        height: 2.8125rem;
     }
 }

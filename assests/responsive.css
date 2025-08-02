@@ -1,0 +1,50 @@
+@media (min-width: 800px) {
+
+
+    #content header {
+        text-align: center;
+
+        p {
+            text-align: center;
+        }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: row;
+    }
+  }
+
+
+  #content section {
+    display: flex;
+     align-items: center;
+      justify-content: center;
+
+    .texts {
+        width: 50%;
+        padding: 2rem;
+    }
+  }
+  #content .section-2 {
+    flex-direction: row-reverse;
+  }
+
+  #content .section-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    p {
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    img {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+  }
+
+}
