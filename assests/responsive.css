@@ -86,7 +86,7 @@
     #content section {
       display: flex;
       font-size: 3rem;
-      gap: 2rem;
+      column-gap: 2rem;
 
         .texts {
           h2 {
@@ -113,8 +113,8 @@
         p {
             color: #23272A;
             text-align: center;
-            font-size: 1.5rem;
-            width: 60%;
+            font-size: 1.1rem;
+            width: 55%;
             line-height: normal;
         }
 
