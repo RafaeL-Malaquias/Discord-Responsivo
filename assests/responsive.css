@@ -1,10 +1,12 @@
 /* Estilo base (mobile first) */
+
 #content header .buttons {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-top: 2rem;
 }
+
 
 /* A partir de 800px */
 @media (min-width: 800px) {
@@ -84,13 +86,9 @@
     }
 
     #content header p {
-        max-width: 47.3rem;
-        font-size: 1.5rem;
+        max-width: 53.3rem;
+        font-family: var(--font-open-sans);
        margin: 1.5rem auto;
-        text-align: center;
-
-        color: #FFF;
-        font-size: 1rem;
     }
 
 
@@ -133,9 +131,5 @@
         width: 50%;
         margin: 2rem auto;
     }
-
-
-
-
 }
 

@@ -69,7 +69,7 @@
     }
     p {
         color: #23272A;
-        font-family: "Open Sans", sans-serif;
+        font-family: var(--font-open-sans);
         font-size: 1rem;
         letter-spacing: 1px;
         line-height: 20px;
